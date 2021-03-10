@@ -4,7 +4,7 @@
 # whichever side is longer will begin the weaving sequence
 # the longer side will be determined by dividing the length of the array by 2 and analyzing the values at the indices of array[length/2] and array[(length/2)+1]
 # if the values at those indices are the same, then the second side will be longer
-# if they are different, then the side half will be longer
+# if they are different, then the first side will be longer
 
 def unsort(array):
 
